@@ -26,3 +26,18 @@ code {
  font-family: 'Inter-Bold';
  src: url('./fonts/Inter-Bold.ttf') format('opentype');
 }
+
+@font-face {
+ font-family: 'Interstate';
+ src: url('./fonts/Interstate-regular.ttf') format('opentype');
+}
+
+@font-face {
+ font-family: 'Interstate-Light';
+ src: url('./fonts/Interstate-light.ttf') format('opentype');
+}
+
+@font-face {
+ font-family: 'Interstate-Bold';
+ src: url('./fonts/Interstate-bold.ttf') format('opentype');
+}

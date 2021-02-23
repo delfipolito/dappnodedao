@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import FooterSocial from './FooterSocial';
 import FooterMenu from './FooterMenu';
 import background from '../assets/footer-image.png'
 
@@ -7,6 +8,7 @@ import background from '../assets/footer-image.png'
 
 const Footer = () => (
   <FooterSection>
+    <FooterSocial/>
     <FooterMenu/>
   </FooterSection>
 )
