@@ -18,8 +18,11 @@ const Hero = () => (
         <Button>Get Started</Button>
       </div>
     </Container>
+
   </HeroSection>
 )
+
+
 
 const HeroSection = styled.section`
   min-height: 750px;
@@ -29,6 +32,7 @@ const HeroSection = styled.section`
   margin: auto;
   display: flex;
   align-items: center;
+  border-bottom-right-radius: 29% 27%;
 `
 
 const Container = styled.div`
