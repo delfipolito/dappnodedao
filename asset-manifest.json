@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/dappnodedao/static/css/main.dba52e33.chunk.css",
+    "main.js": "/dappnodedao/static/js/main.95a1e7b5.chunk.js",
+    "main.js.map": "/dappnodedao/static/js/main.95a1e7b5.chunk.js.map",
+    "runtime-main.js": "/dappnodedao/static/js/runtime-main.415be2dc.js",
+    "runtime-main.js.map": "/dappnodedao/static/js/runtime-main.415be2dc.js.map",
+    "static/js/2.bda4f03b.chunk.js": "/dappnodedao/static/js/2.bda4f03b.chunk.js",
+    "static/js/2.bda4f03b.chunk.js.map": "/dappnodedao/static/js/2.bda4f03b.chunk.js.map",
+    "static/js/3.39a4a866.chunk.js": "/dappnodedao/static/js/3.39a4a866.chunk.js",
+    "static/js/3.39a4a866.chunk.js.map": "/dappnodedao/static/js/3.39a4a866.chunk.js.map",
+    "index.html": "/dappnodedao/index.html",
+    "static/css/main.dba52e33.chunk.css.map": "/dappnodedao/static/css/main.dba52e33.chunk.css.map",
+    "static/js/2.bda4f03b.chunk.js.LICENSE.txt": "/dappnodedao/static/js/2.bda4f03b.chunk.js.LICENSE.txt",
+    "static/media/DAppNodeDAO-logo-white.e213415f.svg": "/dappnodedao/static/media/DAppNodeDAO-logo-white.e213415f.svg",
+    "static/media/DAppNodeDAO-logo.e2daf54d.svg": "/dappnodedao/static/media/DAppNodeDAO-logo.e2daf54d.svg",
+    "static/media/index.css": "/dappnodedao/static/media/Interstate-regular.c18b0bcd.ttf",
+    "static/media/about-bg-large.01262282.png": "/dappnodedao/static/media/about-bg-large.01262282.png",
+    "static/media/about-bg-mobile.e5043047.png": "/dappnodedao/static/media/about-bg-mobile.e5043047.png",
+    "static/media/about-bg-tablet.0359ecc5.png": "/dappnodedao/static/media/about-bg-tablet.0359ecc5.png",
+    "static/media/airdrop.5800d76b.svg": "/dappnodedao/static/media/airdrop.5800d76b.svg",
+    "static/media/footer-image.12cf8e4e.png": "/dappnodedao/static/media/footer-image.12cf8e4e.png",
+    "static/media/guardians.cc3949d0.png": "/dappnodedao/static/media/guardians.cc3949d0.png",
+    "static/media/hero.40a20134.jpg": "/dappnodedao/static/media/hero.40a20134.jpg",
+    "static/media/join.f56585e7.svg": "/dappnodedao/static/media/join.f56585e7.svg",
+    "static/media/network.28ce517a.svg": "/dappnodedao/static/media/network.28ce517a.svg",
+    "static/media/network.459a5013.jpg": "/dappnodedao/static/media/network.459a5013.jpg",
+    "static/media/pioneer.f8deef5a.jpg": "/dappnodedao/static/media/pioneer.f8deef5a.jpg",
+    "static/media/platform.cfd0bf1d.jpg": "/dappnodedao/static/media/platform.cfd0bf1d.jpg",
+    "static/media/quote.48524793.svg": "/dappnodedao/static/media/quote.48524793.svg",
+    "static/media/social-github.a91b1182.svg": "/dappnodedao/static/media/social-github.a91b1182.svg",
+    "static/media/social-medium.e009b375.svg": "/dappnodedao/static/media/social-medium.e009b375.svg",
+    "static/media/social-reddit.7f6de77f.svg": "/dappnodedao/static/media/social-reddit.7f6de77f.svg",
+    "static/media/social-twitter.b29e5a44.svg": "/dappnodedao/static/media/social-twitter.b29e5a44.svg",
+    "static/media/social-wikipedia.6b0fd06c.svg": "/dappnodedao/static/media/social-wikipedia.6b0fd06c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.415be2dc.js",
+    "static/js/2.bda4f03b.chunk.js",
+    "static/css/main.dba52e33.chunk.css",
+    "static/js/main.95a1e7b5.chunk.js"
+  ]
+}
