@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/DAppNodeDAO-logo.svg'
 
-// TODO: Add links
-
 const Navbar = () => (
   <NavbarSection>
     <Container>
@@ -18,13 +16,18 @@ const Navbar = () => (
   </NavbarSection>
 )
 
-// TODO: Add shaddow
 const NavbarSection = styled.section`
   background-color: white;
   height: 60px;
   text-align: center;
   overflow: hidden;
   border: solid 1px #e7e7e7;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 10px 18px 7px rgb(73 66 67 / 41%);
+}
+
+
 `
 
 const Container = styled.div`
@@ -35,6 +38,11 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  @media only screen and (max-width: 444px) {
+    img {
+      width: 190px;
+    }
+  }
 `
 
 const Item = styled.a`
@@ -42,6 +50,9 @@ const Item = styled.a`
   font-family: 'Inter';
   font-size: 18px;
   padding: 15px;
+  @media only screen and (max-width: 825px) {
+    display: none;
+  }
 `
 
 const Button = styled.a`

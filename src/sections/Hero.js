@@ -18,11 +18,8 @@ const Hero = () => (
         <Button>Get Started</Button>
       </div>
     </Container>
-
   </HeroSection>
 )
-
-
 
 const HeroSection = styled.section`
   min-height: 750px;
@@ -33,6 +30,15 @@ const HeroSection = styled.section`
   display: flex;
   align-items: center;
   border-bottom-right-radius: 29% 27%;
+  position: relative;
+
+  @media only screen and (max-width: 700px) {
+    border-bottom-right-radius: 29% 12%;
+    background-position-x: 80%;
+  }
+  @media only screen and (max-width: 1024px) and (min-width: 700px) {
+    background-position-x: 100%;
+  }
 `
 
 const Container = styled.div`
@@ -43,11 +49,24 @@ const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   color: white;
+  @media only screen and (max-width: 700px) {
+    text-align: center;
+  }
   p {
     max-width: 710px;
     font-family: 'Inter';
     font-size: 24px;
     line-height: 36px;
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 700px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+}
   }
   h1 {
     max-width: 710px;
@@ -59,6 +78,17 @@ const Container = styled.div`
     b {
       font-weight: bold;
       font-family: 'Interstate-Bold';
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 700px) {
+      font-size: 40px;
+      letter-spacing: -1.2px;
+      line-height: 50px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 36px;
+      letter-spacing: -1.08px;
+      line-height: 40px;
+      text-align: center;
     }
   }
 `
@@ -75,6 +105,20 @@ const Button = styled.a`
   padding: 25px 100px;
   margin-top: 26px;
   display: inline-block;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+    letter-spacing: 0.27px;
+    line-height: 19px;
+    padding: 16px 74px;
+  }
+
+  @media only screen and (max-width: 1024px) and (min-width: 700px) {
+    font-size: 21px;
+    letter-spacing: 0.35px;
+    line-height:25px;
+    padding: 25px 111px;
+  }
 `
 
 export default Hero

@@ -17,7 +17,10 @@ const Footer = () => (
 const FooterSection = styled.section`
   min-height: 931px;
   height: auto;
-  background: url(${background}) top no-repeat;
+  background-color: #00443E;
+  background-image: url(${background});
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;

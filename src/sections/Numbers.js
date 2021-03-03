@@ -34,7 +34,7 @@ const Numbers = () => (
 )
 
 const NumbersSection = styled.section`
-  padding: 200px 0;
+  padding: 100px 0;
   height: auto;
   background-color: white;
   width: 95%;
@@ -57,6 +57,13 @@ const Title = styled.h1`
   font-weight: 400;
   letter-spacing: -1.62px;
   line-height: 64px;
+
+  @media only screen and (min-width:768px) and (max-width:992px) {
+    font-size: 36px;
+  }
+  @media only screen and (max-width:768px) {
+    font-size: 28px;
+  }
 `
 
 const Bold = styled.span`
@@ -70,6 +77,12 @@ const Light = styled.span`
 `
 
 const Item = styled.div`
+  @media only screen and (min-width:768px) and (max-width:992px) {
+    width: 40vw;
+  }
+  @media only screen and (max-width:768px) {
+    width: 90vw;
+  }
   h6 {
     color: #a7a5a6;
     font-family: 'Interstate';
@@ -78,6 +91,10 @@ const Item = styled.div`
     line-height: 19px;
     font-wight: 400;
     text-transform: uppercase;
+    @media only screen and (max-width:992px) {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
   }
   h1 {
     color: #231f20;
@@ -86,6 +103,14 @@ const Item = styled.div`
     font-weight: 300;
     letter-spacing: -0.5px;
     line-height: 60px;
+    @media only screen and (max-width:768px) {
+      font-size: 36px;
+      margin: 5px 0;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+      font-size: 40px;
+      margin: 10px 0;
+    }
   }
   p {
     color: #231f20;
@@ -94,7 +119,18 @@ const Item = styled.div`
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
-    max-width: 227px;
+    @media only screen and (min-width:992px) {
+      max-width: 227px;
+    }
+    @media only screen and (max-width:768px) {
+      font-size: 14px;
+      margin-top: 0;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+      font-size: 16px;
+      margin: 0;
+      margin: 0 0 30px;
+    }
   }
 `
 
