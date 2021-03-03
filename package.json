@@ -1,6 +1,6 @@
 {
   "name": "dappnode-dao",
-  "homepage":"https://delfipolito.github.io/dappnodedao",
+  "homepage": "https://delfipolito.github.io/dappnodedao",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
