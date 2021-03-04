@@ -105,6 +105,10 @@ const Container = styled.div`
     grid-template-rows: 334px auto;
     column-gap: 0;
     row-gap: 25px;
+    border-radius: 15px;
+  }
+  @media only screen and (min-width:768px) and (max-width:992px) {
+    border-radius: 24px;
   }
   margin: 50px auto;
   max-width: 1440px;
@@ -153,6 +157,14 @@ const Content = styled.div`
       font-family: 'Interstate-Bold';
       font-weight: bold;
     }
+    @media only screen and (max-width:768px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+      font-size: 30px;
+      line-height: 36px;
+    }
   }
   h2 {
     font-family: 'Inter';
@@ -162,6 +174,14 @@ const Content = styled.div`
       font-family: 'Inter-Bold';
       font-weight: bold;
     }
+    @media only screen and (max-width:768px) {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
   }
   h3 {
     font-family: 'Inter-Bold';
@@ -169,12 +189,28 @@ const Content = styled.div`
     font-weight: bold;
     line-height: 24px;
     margin: 40px 0 0 0;
+    @media only screen and (max-width:768px) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
   }
   ul {
     color: #231f20;
     font-family: 'Inter';
     font-size: 18px;
     line-height: 24px;
+    @media only screen and (max-width:768px) {
+      font-size: 14px;
+      line-height: 22px;
+      padding-left: 18px;
+    }
+    @media only screen and (min-width:768px) and (max-width:992px) {
+
+    }
   }
   li {
     margin-bottom: 20px;
@@ -194,6 +230,10 @@ const Button = styled.a`
   padding: 17px 85px 15px 85px;
   margin-top: 16px;
   display: inline-block;
+  @media only screen and (max-width:768px) {
+    width: -webkit-fill-available;
+    text-align: center;
+  }
 `
 
 export default Roles

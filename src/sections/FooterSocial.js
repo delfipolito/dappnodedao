@@ -11,11 +11,21 @@ import medium from '../assets/social-medium.svg'
 const FooterSocial = () => (
   <FooterSocialSection>
     <div>
-      <Item><img src={medium}/></Item>
-      <Item href="https://github.com/dappnode"><img src={github}/></Item>
-      <Item><img src={reddit}/></Item>
-      <Item><img src={twitter}/></Item>
-      <Item><img src={wikipedia}/></Item>
+      <Item>
+        <img src={medium} />
+      </Item>
+      <Item href="https://github.com/dappnode">
+        <img src={github} />
+      </Item>
+      <Item>
+        <img src={reddit} />
+      </Item>
+      <Item>
+        <img src={twitter} />
+      </Item>
+      <Item>
+        <img src={wikipedia} />
+      </Item>
     </div>
   </FooterSocialSection>
 )
@@ -37,6 +47,19 @@ const Item = styled.a`
   font-family: 'Inter';
   font-size: 18px;
   padding: 0 50px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 20px;
+    img {
+      width: 28px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    padding: 0 35px;
+    img {
+      width: 40px;
+    }
+  }
 `
 
 export default FooterSocial

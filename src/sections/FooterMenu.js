@@ -23,6 +23,9 @@ const FooterMenuSection = styled.section`
   text-align: center;
   overflow: hidden;
   margin: 40px 0px;
+  @media only screen and (max-width: 768px) {
+    height: auto;
+  }
 `
 
 const Container = styled.div`
@@ -33,6 +36,12 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    img {
+      margin-bottom: 20px;
+    }
+  }
 `
 
 const Item = styled.a`

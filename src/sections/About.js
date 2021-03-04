@@ -11,54 +11,54 @@ const About = () => (
   <AboutSection>
     <Container>
       <Content>
-      <h1>About DAO</h1>
-      <div>
-        <img src={network}/>
-        <h3>Help decentralize the security of the Ethereum network</h3>
-        <p>
-          The DAO allows for fully trust-less validators participate in the pool
-          and to leave the validator set at will with no possibility of damaging
-          the network.
-        </p>
-        <p>
-          This is achieved with our BLS-powered cryptographical system where a
-          group of institutions check and co-sign every step so it is nearly
-          impossible for a rogue validator to produce slashing, and at the same
-          time allows for the safe transference of the validator keys to another
-          machine.
-        </p>
+        <h1>About DAO</h1>
+        <div>
+          <img src={network} />
+          <h3>Help decentralize the security of the Ethereum network</h3>
+          <p>
+            The DAO allows for fully trust-less validators participate in the
+            pool and to leave the validator set at will with no possibility of
+            damaging the network.
+          </p>
+          <p>
+            This is achieved with our BLS-powered cryptographical system where a
+            group of institutions check and co-sign every step so it is nearly
+            impossible for a rogue validator to produce slashing, and at the
+            same time allows for the safe transference of the validator keys to
+            another machine.
+          </p>
         </div>
         <div>
-        <img src={airdrop}/>
-        <h3>Airdrop of DAO Token</h3>
-        <p>
-          The DAO allows for fully trust-less validators participate in the pool
-          and to leave the validator set at will with no possibility of damaging
-          the network.
-        </p>
-        <p>
-          This is achieved with our BLS-powered cryptographical system where a
-          group of institutions check and co-sign every step so it is nearly
-          impossible for a rogue validator to produce slashing, and at the same
-          time allows for the safe transference of the validator keys to another
-          machine.
-        </p>
+          <img src={airdrop} />
+          <h3>Airdrop of DAO Token</h3>
+          <p>
+            The DAO allows for fully trust-less validators participate in the
+            pool and to leave the validator set at will with no possibility of
+            damaging the network.
+          </p>
+          <p>
+            This is achieved with our BLS-powered cryptographical system where a
+            group of institutions check and co-sign every step so it is nearly
+            impossible for a rogue validator to produce slashing, and at the
+            same time allows for the safe transference of the validator keys to
+            another machine.
+          </p>
         </div>
         <div>
-        <img src={join}/>
-        <h3>Why join the DAO</h3>
-        <p>
-          The DAO allows for fully trust-less validators participate in the pool
-          and to leave the validator set at will with no possibility of damaging
-          the network.
-        </p>
-        <p>
-          This is achieved with our BLS-powered cryptographical system where a
-          group of institutions check and co-sign every step so it is nearly
-          impossible for a rogue validator to produce slashing, and at the same
-          time allows for the safe transference of the validator keys to another
-          machine.
-        </p>
+          <img src={join} />
+          <h3>Why join the DAO</h3>
+          <p>
+            The DAO allows for fully trust-less validators participate in the
+            pool and to leave the validator set at will with no possibility of
+            damaging the network.
+          </p>
+          <p>
+            This is achieved with our BLS-powered cryptographical system where a
+            group of institutions check and co-sign every step so it is nearly
+            impossible for a rogue validator to produce slashing, and at the
+            same time allows for the safe transference of the validator keys to
+            another machine.
+          </p>
         </div>
 
         <Button>Get Started</Button>
@@ -102,6 +102,14 @@ const Container = styled.div`
     font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
+    @media only screen and (max-width: 1024px) and (min-width: 700px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 14px;
+      line-height: 22px;
+    }
   }
   h1 {
     margin-top: 149px;
@@ -111,6 +119,16 @@ const Container = styled.div`
     font-weight: bold;
     letter-spacing: -1.62px;
     line-height: 64px;
+    @media only screen and (max-width: 1024px) and (min-width: 700px) {
+      font-size: 36px;
+      letter-spacing: -1.08px;
+      line-height: 44px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 28px;
+      letter-spacing: -0.84px;
+      line-height: 38px;
+    }
   }
   h3 {
     color: #231f20;
@@ -118,12 +136,33 @@ const Container = styled.div`
     font-size: 32px;
     letter-spacing: -0.33px;
     line-height: 42px;
+    @media only screen and (max-width: 1024px) and (min-width: 700px) {
+      font-size: 26px;
+      letter-spacing: -0.27px;
+      line-height: 34px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 20px;
+      letter-spacing: -0.21px;
+      line-height: 28px;
+    }
   }
 `
 
 const Content = styled.div`
   max-width: 50%;
   margin: auto;
+  @media only screen and (max-width: 1024px) and (min-width: 700px) {
+    max-width: 74%;
+    margin-left: 0;
+    text-align: left;
+  }
+  @media only screen and (max-width: 700px) {
+    max-width: 100%;
+    margin: auto;
+    margin-left: 0;
+    text-align: center;
+  }
   div {
     position: relative;
   }
@@ -133,7 +172,6 @@ const Content = styled.div`
       left: -200px;
     }
   }
-
 `
 const Button = styled.a`
   color: #ffffff;
@@ -147,6 +185,16 @@ const Button = styled.a`
   padding: 25px 100px;
   margin: 26px 0 309px 0;
   display: inline-block;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+    letter-spacing: 0.27px;
+    line-height: 19px;
+    width: -webkit-fill-available;
+    text-align: center;
+    padding: 16px;
+    margin: 26px 0px 100px 0px;
+  }
 `
 
 export default About
