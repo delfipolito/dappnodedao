@@ -7,11 +7,46 @@ const Faqs = () => (
     <div>
       <h1>FAQ</h1>
       <Collapsible
-        trigger={
-          <FaqsTitle>
-            Sed vel quam ex sed viverra lectus id felis malesuada?
-          </FaqsTitle>
-        }
+      trigger={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>+</span>
+        </FaqsTitle>
+      }
+      triggerWhenOpen={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>-</span>
+        </FaqsTitle>
+      }
+      >
+        <FaqsAnswer>
+          <p>
+            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
+            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
+          </p>
+          <p>
+            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
+            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
+            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
+            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
+            felis a arcu laoreet, eu pulvinar lectus aliquet.
+          </p>
+        </FaqsAnswer>
+      </Collapsible>
+      <Collapsible
+      trigger={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>+</span>
+        </FaqsTitle>
+      }
+      triggerWhenOpen={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>-</span>
+        </FaqsTitle>
+      }
       >
         <FaqsAnswer>
           <p>
@@ -30,7 +65,14 @@ const Faqs = () => (
       <Collapsible
         trigger={
           <FaqsTitle>
-            Sed vel quam ex sed viverra lectus id felis malesuada?
+            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>+</span>
+          </FaqsTitle>
+        }
+        triggerWhenOpen={
+          <FaqsTitle>
+            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>-</span>
           </FaqsTitle>
         }
       >
@@ -49,32 +91,18 @@ const Faqs = () => (
         </FaqsAnswer>
       </Collapsible>
       <Collapsible
-        trigger={
-          <FaqsTitle>
-            Sed vel quam ex sed viverra lectus id felis malesuada?
-          </FaqsTitle>
-        }
-      >
-        <FaqsAnswer>
-          <p>
-            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
-            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
-          </p>
-          <p>
-            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
-            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
-            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
-            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
-            felis a arcu laoreet, eu pulvinar lectus aliquet.
-          </p>
-        </FaqsAnswer>
-      </Collapsible>
-      <Collapsible
-        trigger={
-          <FaqsTitle>
-            Sed vel quam ex sed viverra lectus id felis malesuada?
-          </FaqsTitle>
-        }
+      trigger={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>+</span>
+        </FaqsTitle>
+      }
+      triggerWhenOpen={
+        <FaqsTitle>
+          <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+          <span>-</span>
+        </FaqsTitle>
+      }
       >
         <FaqsAnswer>
           <p>
@@ -137,7 +165,7 @@ const FaqsTitle = styled.div`
   background-color: #b3bac51f;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   color: #ffffff;
   font-family: 'Inter-Bold';
   font-size: 22px;
