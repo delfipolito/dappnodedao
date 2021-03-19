@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dappnodedao/static/css/main.dba52e33.chunk.css",
-    "main.js": "/dappnodedao/static/js/main.0980034a.chunk.js",
-    "main.js.map": "/dappnodedao/static/js/main.0980034a.chunk.js.map",
+    "main.css": "/dappnodedao/static/css/main.34bdd780.chunk.css",
+    "main.js": "/dappnodedao/static/js/main.616af045.chunk.js",
+    "main.js.map": "/dappnodedao/static/js/main.616af045.chunk.js.map",
     "runtime-main.js": "/dappnodedao/static/js/runtime-main.2dfb86f1.js",
     "runtime-main.js.map": "/dappnodedao/static/js/runtime-main.2dfb86f1.js.map",
     "static/js/2.ab040242.chunk.js": "/dappnodedao/static/js/2.ab040242.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0dadf30c.chunk.js": "/dappnodedao/static/js/3.0dadf30c.chunk.js",
     "static/js/3.0dadf30c.chunk.js.map": "/dappnodedao/static/js/3.0dadf30c.chunk.js.map",
     "index.html": "/dappnodedao/index.html",
-    "static/css/main.dba52e33.chunk.css.map": "/dappnodedao/static/css/main.dba52e33.chunk.css.map",
+    "static/css/main.34bdd780.chunk.css.map": "/dappnodedao/static/css/main.34bdd780.chunk.css.map",
     "static/js/2.ab040242.chunk.js.LICENSE.txt": "/dappnodedao/static/js/2.ab040242.chunk.js.LICENSE.txt",
     "static/media/DAppNodeDAO-logo-white.e213415f.svg": "/dappnodedao/static/media/DAppNodeDAO-logo-white.e213415f.svg",
     "static/media/DAppNodeDAO-logo.e2daf54d.svg": "/dappnodedao/static/media/DAppNodeDAO-logo.e2daf54d.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.2dfb86f1.js",
     "static/js/2.ab040242.chunk.js",
-    "static/css/main.dba52e33.chunk.css",
-    "static/js/main.0980034a.chunk.js"
+    "static/css/main.34bdd780.chunk.css",
+    "static/js/main.616af045.chunk.js"
   ]
 }
