@@ -86,9 +86,15 @@ const Button = styled.a`
   letter-spacing: 0.22px;
   text-transform: uppercase;
   border-radius: 38px;
-  padding: 25px 100px;
+  padding: 27px 100px 25px 100px;
   margin-top: 51px;
   display: inline-block;
+
+  &:hover,
+  &:active {
+    background: #009688;
+    color: white;
+  }
 
   @media only screen and (max-width: 768px) {
     font-size: 16px;
@@ -99,7 +105,7 @@ const Button = styled.a`
     padding: 16px;
     margin: 51px 20px 0 20px;
   }
-  
+
 `
 
 export default Testimonial

@@ -107,7 +107,7 @@ const Container = styled.div`
     row-gap: 25px;
     border-radius: 15px;
   }
-  @media only screen and (min-width:768px) and (max-width:992px) {
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
     border-radius: 24px;
   }
   margin: 50px auto;
@@ -115,7 +115,7 @@ const Container = styled.div`
 
   &.network {
     background-color: #daf2f9;
-    grid-template-columns:  53% 41%;
+    grid-template-columns: 53% 41%;
     @media only screen and (max-width: 768px) {
       grid-template-columns: 100%;
       grid-template-rows: 334px auto;
@@ -157,11 +157,11 @@ const Content = styled.div`
       font-family: 'Interstate-Bold';
       font-weight: bold;
     }
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width: 768px) {
       font-size: 24px;
       line-height: 30px;
     }
-    @media only screen and (min-width:768px) and (max-width:992px) {
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 30px;
       line-height: 36px;
     }
@@ -174,11 +174,11 @@ const Content = styled.div`
       font-family: 'Inter-Bold';
       font-weight: bold;
     }
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width: 768px) {
       font-size: 16px;
       line-height: 26px;
     }
-    @media only screen and (min-width:768px) and (max-width:992px) {
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
       line-height: 28px;
     }
@@ -189,11 +189,11 @@ const Content = styled.div`
     font-weight: bold;
     line-height: 24px;
     margin: 40px 0 0 0;
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width: 768px) {
       font-size: 14px;
       line-height: 22px;
     }
-    @media only screen and (min-width:768px) and (max-width:992px) {
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 16px;
       line-height: 22px;
     }
@@ -203,13 +203,12 @@ const Content = styled.div`
     font-family: 'Inter';
     font-size: 18px;
     line-height: 24px;
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width: 768px) {
       font-size: 14px;
       line-height: 22px;
       padding-left: 18px;
     }
-    @media only screen and (min-width:768px) and (max-width:992px) {
-
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
     }
   }
   li {
@@ -230,9 +229,14 @@ const Button = styled.a`
   padding: 17px 85px 15px 85px;
   margin-top: 16px;
   display: inline-block;
-  @media only screen and (max-width:768px) {
+  @media only screen and (max-width: 768px) {
     width: -webkit-fill-available;
     text-align: center;
+  }
+  &:hover,
+  &:active {
+    background: #009688;
+    color: white;
   }
 `
 

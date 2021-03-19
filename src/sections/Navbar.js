@@ -65,8 +65,13 @@ const Button = styled.a`
   text-transform: uppercase;
   border: 2px solid #2fbcb2;
   border-radius: 38px;
-  padding: 10px 20px;
+  padding: 12px 20px 10px 20px;
   margin-left: 15px;
+  &:hover,
+  &:active {
+    background: #2fbcb2;
+    color: white;
+  }
 `
 
 export default Navbar

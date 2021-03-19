@@ -55,6 +55,9 @@ const Item = styled.a`
   font-family: 'Inter';
   font-size: 18px;
   padding: 15px;
+  &:hover {
+    color: #2fbcb2;
+  }
 `
 
 export default FooterMenu

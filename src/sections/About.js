@@ -182,9 +182,15 @@ const Button = styled.a`
   letter-spacing: 0.22px;
   text-transform: uppercase;
   border-radius: 38px;
-  padding: 25px 100px;
+  padding: 27px 100px 25px 100px;
   margin: 26px 0 309px 0;
   display: inline-block;
+
+  &:hover,
+  &:active {
+    background: #009688;
+    color: white;
+  }
 
   @media only screen and (max-width: 700px) {
     font-size: 16px;

@@ -74,6 +74,11 @@ const GuardiansSection = styled.div`
     line-height: 25px;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer;
+    &:hover,
+    &:active {
+      color: #009688;
+    }
   }
   @media only screen and (max-width: 700px) {
     padding: 300px 0 220px 0;

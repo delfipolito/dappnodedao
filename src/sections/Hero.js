@@ -102,22 +102,28 @@ const Button = styled.a`
   letter-spacing: 0.22px;
   text-transform: uppercase;
   border-radius: 38px;
-  padding: 25px 100px;
+  padding: 27px 100px 25px 100px;
   margin-top: 26px;
   display: inline-block;
+
+  &:hover,
+  &:active {
+    background: #2fbcb2;
+    color: white;
+  }
 
   @media only screen and (max-width: 700px) {
     font-size: 16px;
     letter-spacing: 0.27px;
     line-height: 19px;
-    padding: 16px 74px;
+    padding: 18px 74px 16px 74px;
   }
 
   @media only screen and (max-width: 1024px) and (min-width: 700px) {
     font-size: 21px;
     letter-spacing: 0.35px;
     line-height:25px;
-    padding: 25px 111px;
+    padding: 27px 111px 25px 111px;
   }
 `
 

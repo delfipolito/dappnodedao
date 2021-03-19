@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+a, a span, button {
+  outline: none;
+  transition: all 0.25s ease-in-out;
+}
+
 @font-face {
  font-family: 'Inter';
  src: url('./fonts/Inter-Regular.ttf') format('opentype');

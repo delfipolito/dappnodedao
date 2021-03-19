@@ -160,6 +160,7 @@ const FaqsSection = styled.section`
 
 const FaqsTitle = styled.div`
   width: 953px;
+  max-width: 70vw;
   padding: 31px 37px;
   border-radius: 8px;
   background-color: #b3bac51f;
@@ -175,6 +176,7 @@ const FaqsTitle = styled.div`
 
 const FaqsTitleOpen = styled.div`
   width: 953px;
+  max-width: 70vw;
   padding: 31px 37px;
   border-radius: 8px;
   background-color: #2fbcb2;
@@ -190,6 +192,7 @@ const FaqsTitleOpen = styled.div`
 
 const FaqsAnswer = styled.div`
   width: 953px;
+  max-width: 70vw;
   border-radius: 8px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
