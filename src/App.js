@@ -1,4 +1,5 @@
 import About from './sections/About'
+import Faqs from './sections/Faqs'
 import Footer from './sections/Footer'
 import Guardians from './sections/Guardians'
 import Hero from './sections/Hero'
@@ -16,6 +17,7 @@ function App() {
       <Roles />
       <About />
       <Guardians />
+      <Faqs />
       <Testimonial />
       <Footer />
     </div>

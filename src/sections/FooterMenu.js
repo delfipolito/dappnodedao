@@ -41,6 +41,12 @@ const Container = styled.div`
     img {
       margin-bottom: 20px;
     }
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `
 

@@ -75,6 +75,23 @@ const GuardiansSection = styled.div`
     text-transform: uppercase;
     text-decoration: none;
   }
+  @media only screen and (max-width: 700px) {
+    padding: 300px 0 220px 0;
+    text-align: center;
+    a {
+      font-size: 16px;
+      letter-spacing: 0.27px;
+      line-height: 19px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    padding: 300px 0 220px 0;
+    a {
+      font-size: 18px;
+      letter-spacing: 0.3px;
+      line-height: 21px;
+    }
+  }
 `
 
 const Container = styled.div`
@@ -84,7 +101,12 @@ const Container = styled.div`
   width: 1197px;
   max-width: 90%;
   margin: auto;
-
+  @media only screen and (max-width: 700px) {
+    padding: 218px 0 30px 0;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    padding: 122px 0 60px 0;
+  }
 `
 const Header = styled.div`
   display: flex;
@@ -100,13 +122,16 @@ const Header = styled.div`
 
   .image-container {
     margin-right: 100px;
-    @media only screen and (max-width: 992px) {
-      margin-right: 0;
-      margin-top: -460px;
-    }
     img {
       max-width: 660px;
       overflow: visible;
+    }
+    @media only screen and (max-width: 992px) {
+      margin-right: 0;
+      margin-top: -460px;
+      img {
+        max-width: 500px;
+      }
     }
   }
 
@@ -127,15 +152,38 @@ const Header = styled.div`
     letter-spacing: 0;
     line-height: 36px;
   }
+  @media only screen and (max-width: 700px) {
+    text-align: center;
+    h2 {
+      font-size: 26px;
+      letter-spacing: -0.88px;
+      line-height: 34px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    text-align: center;
+    h2 {
+      font-size: 32px;
+      letter-spacing: -0.96px;
+      line-height: 42px;
+      max-width: inherit;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: inherit;
+    }
+  }
 `
 
 const Content = styled.div`
   text-align: left;
   max-width: 710px;
   margin: auto;
-  @media only screen and (max-width: 992px) {
-    margin: auto 50px;
-  }
   h1 {
     color: #231f20;
     font-family: 'Interstate';
@@ -162,6 +210,44 @@ const Content = styled.div`
   a {
     margin-top: 25px;
     display: block;
+  }
+  @media only screen and (max-width: 700px) {
+    text-align: center;
+    margin: auto 50px;
+    h1 {
+      font-size: 28px;
+      letter-spacing: -0.84px;
+      line-height: 38px;
+    }
+    h3 {
+      font-size: 20px;
+      letter-spacing: -0.21px;
+      line-height: 28px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    text-align: center;
+
+    h1 {
+      font-size: 36px;
+      letter-spacing: -1.08px;
+      line-height: 44px;
+    }
+    h3 {
+      font-size: 26px;
+      letter-spacing: -0.27px;
+      line-height: 34px;
+    }
+
+    p {
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 24px;
+    }
   }
 `
 
