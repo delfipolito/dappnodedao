@@ -115,7 +115,10 @@ const Container = styled.div`
 `
 const Header = styled.div`
   display: flex;
-  margin-left: -20%;
+  margin-left: -8%;
+  @media only screen and (min-width: 992px) and (max-width: 1100px) {
+    margin-left: -4%;
+  }
   @media only screen and (max-width: 992px) {
     display: block;
     margin-left: 0;
@@ -125,10 +128,18 @@ const Header = styled.div`
     }
   }
 
+  .content-container {
+    @media only screen and (min-width: 992px) and (max-width: 1100px) {
+      padding-right: 20px;
+    }
+  }
   .image-container {
     margin-right: 100px;
     img {
       max-width: 660px;
+      @media only screen and (min-width: 992px) and (max-width: 1100px) {
+        max-width: 480px;
+      }
       overflow: visible;
     }
     @media only screen and (max-width: 992px) {

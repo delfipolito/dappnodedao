@@ -7,7 +7,7 @@ import logo from '../assets/DAppNodeDAO-logo-white.svg'
 const FooterMenu = () => (
   <FooterMenuSection>
     <Container>
-      <img src={logo} />
+      <img alt="DAppNode" src={logo} />
       <div>
         <Item>Terms of use</Item>
         <Item>Privacy Policy</Item>
