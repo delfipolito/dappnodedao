@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dappnodedao/static/css/main.34bdd780.chunk.css",
-    "main.js": "/dappnodedao/static/js/main.616af045.chunk.js",
-    "main.js.map": "/dappnodedao/static/js/main.616af045.chunk.js.map",
+    "main.js": "/dappnodedao/static/js/main.97812d39.chunk.js",
+    "main.js.map": "/dappnodedao/static/js/main.97812d39.chunk.js.map",
     "runtime-main.js": "/dappnodedao/static/js/runtime-main.2dfb86f1.js",
     "runtime-main.js.map": "/dappnodedao/static/js/runtime-main.2dfb86f1.js.map",
     "static/js/2.ab040242.chunk.js": "/dappnodedao/static/js/2.ab040242.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/about-bg-mobile.e5043047.png": "/dappnodedao/static/media/about-bg-mobile.e5043047.png",
     "static/media/about-bg-tablet.0359ecc5.png": "/dappnodedao/static/media/about-bg-tablet.0359ecc5.png",
     "static/media/airdrop.5800d76b.svg": "/dappnodedao/static/media/airdrop.5800d76b.svg",
-    "static/media/footer-image.12cf8e4e.png": "/dappnodedao/static/media/footer-image.12cf8e4e.png",
+    "static/media/footer-image.94127c79.svg": "/dappnodedao/static/media/footer-image.94127c79.svg",
     "static/media/guardians.cc3949d0.png": "/dappnodedao/static/media/guardians.cc3949d0.png",
     "static/media/hero.40a20134.jpg": "/dappnodedao/static/media/hero.40a20134.jpg",
     "static/media/join.f56585e7.svg": "/dappnodedao/static/media/join.f56585e7.svg",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.2dfb86f1.js",
     "static/js/2.ab040242.chunk.js",
     "static/css/main.34bdd780.chunk.css",
-    "static/js/main.616af045.chunk.js"
+    "static/js/main.97812d39.chunk.js"
   ]
 }
