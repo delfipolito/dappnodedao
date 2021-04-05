@@ -39,6 +39,7 @@ const NumbersSection = styled.section`
   background-color: white;
   width: 95%;
   margin: auto;
+  max-width: 1444px;
 `
 
 const Container = styled.div`

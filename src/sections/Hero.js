@@ -7,7 +7,7 @@ const Hero = () => (
     <Container>
       <div>
         <h1>
-          Your <b>gateway</b> to a truly <b>decentralized world</b>
+          A chain <b>by Node Runners,</b> <b>for Node Runners</b>
         </h1>
         <p>
           DAppNode DAO connects Validators, Stakers, and Client Implementers in
@@ -32,6 +32,10 @@ const HeroSection = styled.section`
   border-bottom-right-radius: 29% 27%;
   position: relative;
 
+  @media only screen and (min-width: 2400px) {
+    background-position: 100% 62%;
+  }
+
   @media only screen and (max-width: 700px) {
     border-bottom-right-radius: 29% 12%;
     background-position-x: 80%;
@@ -43,6 +47,7 @@ const HeroSection = styled.section`
 
 const Container = styled.div`
   width: 95%;
+  max-width: 1444px;
   margin: auto;
   display: flex;
   flex-direction: column;
