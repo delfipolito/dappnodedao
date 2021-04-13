@@ -10,10 +10,8 @@ const Hero = () => (
           A chain <b>by Node Runners,</b> <b>for Node Runners</b>
         </h1>
         <p>
-          DAppNode DAO connects Validators, Stakers, and Client Implementers in
-          a truly decentralized infrastructure where you are the leader. Join
-          the DAO to run your own nodes and become a part of the digital
-          sovereignty re-evolution.
+        DAppNode Network is a blockchain run in fully decentralized infrastructure. 
+        People like you can run it and be the cornerstone for truly resilient, uncensorable and self-hosted applications.
         </p>
         <Button>Get Started</Button>
       </div>

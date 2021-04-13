@@ -11,14 +11,12 @@ const About = () => (
   <AboutSection>
     <Container>
       <Content>
-        <h1>About DAO</h1>
+        <h1>The DAO</h1>
         <div>
           <img src={network} />
-          <h3>Help decentralize the security of the Ethereum network</h3>
+          <h3>Decentralization matters</h3>
           <p>
-            The DAO allows for fully trust-less validators participate in the
-            pool and to leave the validator set at will with no possibility of
-            damaging the network.
+            Uncensorable, resilient and distributed.
           </p>
           <p>
             This is achieved with our BLS-powered cryptographical system where a

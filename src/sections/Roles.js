@@ -10,55 +10,47 @@ const Roles = () => (
       <img src={pioneer} />
       <Content>
         <h1>
-          If you are a <b>Pioneer</b> who has received tokens
+          Want to be a <b>Pioneer</b> with a stake in the system?
         </h1>
         <h2>
-          <b>Welcome!</b> Aliquam erat volutpat. Proin congue mauris consequat
-          nisl eget volutpat posuere.
+          The DAppNode Network token lets you participate in the network and its governance
         </h2>
         <ul>
           <li>
-            Suspendisse id sem placerat, volutpat lectus vel, fringilla mi.
-            Suspendisse laoreet porta justo ac tempor.
+            DNT was not sold and was gifted to supporters of decentralization
           </li>
           <li>
-            Aenean nisl eros, vehicula ac mollis nec, lobortis at lectus.
-            Integer mollis sagittis elementum.
+            It can be earned by supporting the ecosystem through liquidity mining
           </li>
           <li>
-            Sed vel enim arcu. Vestibulum auctor dui et aliquet vehicula.
-            Phasellus ipsum libero, fringilla id magna quis, tincidunt.
+            
           </li>
         </ul>
-        <h3>Shape the future together with us:</h3>
-        <Button>Get started</Button>
+        <h3>Support the network and earn:</h3>
+        <Button>Go to Dashboard</Button>
       </Content>
     </Container>
     <Container className="network">
       <Content className="network-content">
         <h1>
-          Aliquam non ligula ut velit <b>Network</b> auctor ac sed mauris
+          The <b>DAppNode Network</b>
         </h1>
         <h2>
-          <b>Hi staker!</b> You can participate in Ethereum 2.0's Proof-of-Stake
-          consensus mechanism (staking) and receive ETH rewards in return.
+          Is open, permissionless and EVM-compatible, for anyone to deploy any applications where decentralization is important 
         </h2>
         <ul>
           <li>
-            No limits - stake any amount together with others to share a
-            validator
+            The DAppNode Network is the coordination blockchain behind the DAppNode OS.
           </li>
           <li>
-            Track your earnings in real time while maintaining the control of
-            your assets
+            It is probably the most decentralized network, maintained by Node Runners all over the world
           </li>
-          <li>Trade ETH freely at market price at anytime</li>
-          <li>No need to invest and maintain specialized hardware</li>
-          <li>Full control of withdrawal key and validator exit</li>
-          <li>Enables withdrawals from staking before Phase 2</li>
+          <li>
+            Helps deploy other networks in decentralized hardware
+          </li>
         </ul>
         <h3>Shape the future together with us:</h3>
-        <Button>Get started</Button>
+        <Button>Read the docs</Button>
       </Content>
       <img src={network} />
     </Container>
@@ -66,20 +58,18 @@ const Roles = () => (
       <img src={platform} />
       <Content>
         <h1>
-          Class aptent taciti sociosqu ad litora <b>Platform</b> per nostra
+          For <b>Node Runners</b> 
         </h1>
         <h2>
-          <b>Hey market maker!</b> Cras elementum pretium sem, quis bibendum
-          enim venenatis eu.
+          
         </h2>
         <ul>
-          <li>Accept Ether delegations from stakers and validate for others</li>
-          <li>Leverage more ETH than you currently have</li>
-          <li>Receive rewards that will be liquid and tradeable</li>
-          <li>No need for extra investment</li>
+          <li>Keep staking decentralised: Earn an income by becoming a member of a validator DAO.</li>
+          <li>Be truly self-sovereign with both your money and your data: Connect to blockchains and DApps without intermediaries.</li>
+          <li>Anyone can become a Node Runner. You don’t even need to know how what a command line is. The DAppNode FOSS Platform and plug-and-play boxes are easy to install and configure!</li>
         </ul>
-        <h3>Construct the truly decentralized web:</h3>
-        <Button>Get started</Button>
+        <h3>Be the decentralized web:</h3>
+        <Button>Get DAppNode</Button>
       </Content>
     </Container>
   </RolesSection>
