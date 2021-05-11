@@ -48,7 +48,7 @@ Shape the future together with us
 ### Foster the steadfast and uncensorable future of blockchain. 
  - Challenge the Node Autocracy; allow nodes to be ran by anyone, anywhere.
  - DAppNode Network is open, permissionless and EVM-compatible
- - The backbone for pushing decentralization on other blockchains.
+ - The backbone for pushing decentralization on other blockchains and dapps where decentralization is
 
 
 Discover the possibilities

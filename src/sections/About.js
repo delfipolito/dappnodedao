@@ -11,55 +11,33 @@ const About = () => (
   <AboutSection>
     <Container>
       <Content>
-        <h1>The DAO</h1>
+        <h1>The DAppNodeDAO</h1>
         <div>
           <img src={network} />
-          <h3>Decentralization matters</h3>
+          <h3>The Cross-chain Governance Model for Inclusive and Efficient Decision Making.</h3>
           <p>
-            Uncensorable, resilient and distributed.
-          </p>
-          <p>
-            This is achieved with our BLS-powered cryptographical system where a
-            group of institutions check and co-sign every step so it is nearly
-            impossible for a rogue validator to produce slashing, and at the
-            same time allows for the safe transference of the validator keys to
-            another machine.
+          The DAO will allow token holders on both Ethereum and DAppNode Network to participate in governance. 
+          DAppNode has tapped the Gnosis Safe SafeSnap Protocol as the DAO model, this will allow for on-chain actions to be voted on off-chain, via snapshot, avoiding network traffic and saving gas fees.
           </p>
         </div>
         <div>
           <img src={airdrop} />
-          <h3>Airdrop of DAO Token</h3>
+          <h3>A Token of Gratitude</h3>
           <p>
-            The DAO allows for fully trust-less validators participate in the
-            pool and to leave the validator set at will with no possibility of
-            damaging the network.
-          </p>
-          <p>
-            This is achieved with our BLS-powered cryptographical system where a
-            group of institutions check and co-sign every step so it is nearly
-            impossible for a rogue validator to produce slashing, and at the
-            same time allows for the safe transference of the validator keys to
-            another machine.
+          Early DAppNode supporters have already been airdropped some DAppNode(DN) Tokens. 
+          Check here(ADD LINK) to see if you have any. Liquidity mining will also be introduced to encourage early token adoption.
           </p>
         </div>
         <div>
           <img src={join} />
-          <h3>Why join the DAO</h3>
+          <h3>Get Connected</h3>
           <p>
-            The DAO allows for fully trust-less validators participate in the
-            pool and to leave the validator set at will with no possibility of
-            damaging the network.
-          </p>
-          <p>
-            This is achieved with our BLS-powered cryptographical system where a
-            group of institutions check and co-sign every step so it is nearly
-            impossible for a rogue validator to produce slashing, and at the
-            same time allows for the safe transference of the validator keys to
-            another machine.
+          Join our community. The DAO is a critical component to keep the Network resilient and adaptable. 
+          We need free-thinking members to sustain healthy innovation and ensure DAppNode continues to be a hub of a decentralized universe. 
           </p>
         </div>
 
-        <Button>Get Started</Button>
+        <Button>BEGIN</Button>
       </Content>
     </Container>
   </AboutSection>

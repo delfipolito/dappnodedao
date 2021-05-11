@@ -10,24 +10,27 @@ const Roles = () => (
       <img src={pioneer} />
       <Content>
         <h1>
-          Want to be a <b>Pioneer</b> with a stake in the system?
+        Pioneering the next-generation of decentralization
         </h1>
         <h2>
-          The DAppNode Network token lets you participate in the network and its governance
+          DN (DAppNode) Token Holders are supporting a new ecosystem for decentralization.
         </h2>
         <ul>
           <li>
-            DNT was not sold and was gifted to supporters of decentralization
+            Engage in DAO governance promoting a dynamic and holistic community.
           </li>
           <li>
-            It can be earned by supporting the ecosystem through liquidity mining
+            Access and send transactions on the DAppNode Network
           </li>
           <li>
-            
+            Participate in liquidity mining and airdrop incentives.
+          </li>
+          <li>
+            Run your hardware and stake DN on Validators to earn PoS rewards
           </li>
         </ul>
-        <h3>Support the network and earn:</h3>
-        <Button>Go to Dashboard</Button>
+        <h3>Shape the future together with us</h3>
+        <Button>GET DN TOKENS</Button>
       </Content>
     </Container>
     <Container className="network">
@@ -40,17 +43,17 @@ const Roles = () => (
         </h2>
         <ul>
           <li>
-            The DAppNode Network is the coordination blockchain behind the DAppNode OS.
+            Challenge the Node Autocracy; allow nodes to be ran by anyone, anywhere.
           </li>
           <li>
-            It is probably the most decentralized network, maintained by Node Runners all over the world
+            DAppNode Network is open, permissionless and EVM-compatible
           </li>
           <li>
-            Helps deploy other networks in decentralized hardware
+            The backbone for pushing decentralization on other blockchains and dapps
           </li>
         </ul>
-        <h3>Shape the future together with us:</h3>
-        <Button>Read the docs</Button>
+        <h3>Discover the possibilities</h3>
+        <Button>READ OUR DOCUMENTATION</Button>
       </Content>
       <img src={network} />
     </Container>
@@ -58,18 +61,20 @@ const Roles = () => (
       <img src={platform} />
       <Content>
         <h1>
-          For <b>Node Runners</b> 
+          <b>Node Runners</b> 
         </h1>
         <h2>
-          
+          Setup your own node. Sustain a network and flip the script on node centralization.
         </h2>
         <ul>
-          <li>Keep staking decentralised: Earn an income by becoming a member of a validator DAO.</li>
-          <li>Be truly self-sovereign with both your money and your data: Connect to blockchains and DApps without intermediaries.</li>
-          <li>Anyone can become a Node Runner. You don’t even need to know how what a command line is. The DAppNode FOSS Platform and plug-and-play boxes are easy to install and configure!</li>
+          <li>Run nodes for any blockchain with a couple of clicks.</li>
+          <li>Low maintenance: decentralized auto-updates and alerts packaged out-of-the-box.</li>
+          <li>YOU host the data to keep information uncensored and accessible.</li>
+          <li>Stake in and validate PoS blockchains and earn on your crypto with minimal hassle and without intermediaries.</li>
+          <li>Connect to blockchains and DApps without intermediaries. Take control of your data and establish your digital sovereignty.</li>
         </ul>
-        <h3>Be the decentralized web:</h3>
-        <Button>Get DAppNode</Button>
+        <h3>Run a node on almost anything; a server, an old computer, even a Raspberry Pi. The DAppNode FOSS Platform and plug-and-play boxes are easy to install and configure!</h3>
+        <Button>SHOW ME HOW</Button>
       </Content>
     </Container>
   </RolesSection>
