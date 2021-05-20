@@ -12,39 +12,36 @@ const Guardians = () => (
           </div>
           <div className="content-container">
             <h2>
-              Protecting Ethereum from falling into hands of centralized
-              services!
+              ValidatorDAO Stands Watch. 
+              <br></br>
+              Protecting Ethereum 2.0 from Falling into Centralized Powers
             </h2>
             <p>
-              In a world in which Ethereum becomes the engine for a new global
-              and decentralised financial system ...
+              Ethereum 2.0 threatens to get caught in the same issue facing many PoS networks.
+              Power coalescing at the top, compromising the future of a new decentralized financial engine.
             </p>
             <a>Read our manifesto</a>
           </div>
         </Header>
         <Content>
+          {/*
           <h1>Key-management Council</h1>
           <h3>A key-management council ensuring trustless validators</h3>
+          */}
           <p>
-            The DAO allows for fully trustless validators participate in the
-            pool and to leave the validator set at will with no possibility of
-            damaging the network.
+          This is the first feature project of DAppNode. ValidatorDAO will connect pools of stakers to pools of self-custodial validators ensuring network security doesn't collect into the hands of the few. Staker and Validator Incentives will be regulated by all DAO members.
+          Governance will be open to stakers, validators and network architects. 
           </p>
           <p>
-            This is achieved with our BLS-powered cryptographical system where a
-            group of institutions check and co-sign every step so it is nearly
-            impossible for a rogue validator to produce slashing, and at the
-            same time allows for the safe transference of the validator keys to
-            another machine.
+          The DAO allows for validators to become trustless, and can move in and out of the validation pool without interrupting the network. 
+          Lowering the risk for validators allows more participation thus making the network as a whole more resilient. 
           </p>
-          <h3>Making the validator’s keys non-custodial</h3>
+          {/*<h3>Making the validator’s keys non-custodial</h3>*/}
           <p>
-            Distributed Key Generation (DKG) through a Multi-Party Computation
-            (MPC) algorithm that would allow for having a group of “Guardians of
-            Ethereum” that would share the responsibility of signing every
-            action with the validators.
+          "The Guardians of Ethereum" is a collection of DAO members who will take the responsiblity of co-signing every action with validators and ensure appropriate distribution of validation keys.
+           The Guardians will serve the greater community by surveilling the network to prevent or mitigate malicious actions to and from validators.
           </p>
-          <a>Learn more about Key Management</a>
+          {/* <a>Learn more about Key Management</a> */}
         </Content>
       </Container>
     </GuardiansSection>

@@ -9,112 +9,122 @@ const Faqs = () => (
       <Collapsible
         trigger={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>What the heck is a node?</span>
             <span>+</span>
           </FaqsTitle>
         }
         triggerWhenOpen={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>What the heck is a node?</span>
             <span>-</span>
           </FaqsTitle>
         }
       >
         <FaqsAnswer>
           <p>
-            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
-            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
+            If blockchains are like databases, nodes are each of the copies of the database.
           </p>
           <p>
-            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
-            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
-            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
-            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
-            felis a arcu laoreet, eu pulvinar lectus aliquet.
+            By having multiple nodes of the blockchain, each one keeps each other in check 
+            and do not allow any single one of them to do something malicious. 
+          </p>
+          <p>
+            By running nodes we can make blockchains more resilient, uncensorable, untamperable 
+            and, in some cases, even get paid for it!
           </p>
         </FaqsAnswer>
       </Collapsible>
       <Collapsible
         trigger={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>How much does DAppNode Cost?</span>
             <span>+</span>
           </FaqsTitle>
         }
         triggerWhenOpen={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>How much does DAppNode Cost?</span>
             <span>-</span>
           </FaqsTitle>
         }
       >
         <FaqsAnswer>
           <p>
-            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
-            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
+            Zero. Nada. DAppNode is Free Open Source Software (FOSS) that you can install in your machine.
           </p>
           <p>
-            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
-            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
-            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
-            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
-            felis a arcu laoreet, eu pulvinar lectus aliquet.
+            If you want to buy a pre-installed machine from us, you can check its prices here[Link to shop]
           </p>
         </FaqsAnswer>
       </Collapsible>
       <Collapsible
         trigger={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>How do I connect to the DappNode Chain?</span>
             <span>+</span>
           </FaqsTitle>
         }
         triggerWhenOpen={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>How do I connect to the DappNode Chain?</span>
             <span>-</span>
           </FaqsTitle>
         }
       >
         <FaqsAnswer>
           <p>
-            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
-            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
+            Run your own node! That's the easiest way. It takes two clicks when you're on DAppNode!
           </p>
           <p>
-            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
-            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
-            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
-            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
-            felis a arcu laoreet, eu pulvinar lectus aliquet.
+            Besides that, you will need to connect your wallet to a DAppNode Network endpoint, 
+            yours or not, in order to interact with it. Check out how here.
           </p>
         </FaqsAnswer>
       </Collapsible>
       <Collapsible
         trigger={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>Do I have to pay to join the DAO?</span>
             <span>+</span>
           </FaqsTitle>
         }
         triggerWhenOpen={
           <FaqsTitle>
-            <span>Sed vel quam ex sed viverra lectus id felis malesuada?</span>
+            <span>Do I have to pay to join the DAO?</span>
             <span>-</span>
           </FaqsTitle>
         }
       >
         <FaqsAnswer>
           <p>
-            Fusce ornare eu urna ac varius. Nulla nec ex laoreet, laoreet augue
-            quis, maximus enim. Vivamus finibus augue in interdum faucibus.
+            Holding DAppNode Network Tokens (DN) makes you a member of the DAO. 
+            We distributed tokens to our supporters to give them the weight they deserve!
+            If you didn't get tokens allocated, you might need to buy them to participate in the DAO. 
+          </p>
+        </FaqsAnswer>
+      </Collapsible>
+      <Collapsible
+        trigger={
+          <FaqsTitle>
+            <span>Can I use DappNode software on other networks or sidechains?</span>
+            <span>+</span>
+          </FaqsTitle>
+        }
+        triggerWhenOpen={
+          <FaqsTitle>
+            <span>Can I use DappNode software on other networks or sidechains?</span>
+            <span>-</span>
+          </FaqsTitle>
+        }
+      >
+        <FaqsAnswer>
+          <p>
+            Yes, yes and a thousand times yes. We'll be delighted that you do. 
           </p>
           <p>
-            Aenean vel condimentum massa, eget dignissim sapien. Mauris non
-            ipsum dapibus, tincidunt nisl sit amet, suscipit neque. Maecenas
-            vestibulum nisl ac lorem rutrum, eu aliquet metus varius. Cras arcu
-            libero, fringilla eget mollis quis, faucibus eu ex. Aenean dapibus
-            felis a arcu laoreet, eu pulvinar lectus aliquet.
+            DAppNode's mission is to decentralize any blockchain, so more and more dapps and chains are added 
+            to the DAppStore to run them with a couple of clicks. Moreover, we've made it super easy for developers to deploy 
+            a DAppNode Package (DNP) of their favourite project on DAppNode Chain.
           </p>
         </FaqsAnswer>
       </Collapsible>

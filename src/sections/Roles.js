@@ -10,55 +10,50 @@ const Roles = () => (
       <img src={pioneer} />
       <Content>
         <h1>
-          If you are a <b>Pioneer</b> who has received tokens
+        Pioneering the next-generation of decentralization
         </h1>
         <h2>
-          <b>Welcome!</b> Aliquam erat volutpat. Proin congue mauris consequat
-          nisl eget volutpat posuere.
+          DN (DAppNode) Token Holders are supporting a new ecosystem for decentralization.
         </h2>
         <ul>
           <li>
-            Suspendisse id sem placerat, volutpat lectus vel, fringilla mi.
-            Suspendisse laoreet porta justo ac tempor.
+            Engage in DAO governance promoting a dynamic and holistic community.
           </li>
           <li>
-            Aenean nisl eros, vehicula ac mollis nec, lobortis at lectus.
-            Integer mollis sagittis elementum.
+            Access and send transactions on the DAppNode Network
           </li>
           <li>
-            Sed vel enim arcu. Vestibulum auctor dui et aliquet vehicula.
-            Phasellus ipsum libero, fringilla id magna quis, tincidunt.
+            Participate in liquidity mining and airdrop incentives.
+          </li>
+          <li>
+            Run your hardware and stake DN on Validators to earn PoS rewards
           </li>
         </ul>
-        <h3>Shape the future together with us:</h3>
-        <Button>Get started</Button>
+        <h3>Shape the future together with us</h3>
+        <Button>GET DN TOKENS</Button>
       </Content>
     </Container>
     <Container className="network">
       <Content className="network-content">
         <h1>
-          Aliquam non ligula ut velit <b>Network</b> auctor ac sed mauris
+          The <b>DAppNode Network</b>
         </h1>
         <h2>
-          <b>Hi staker!</b> You can participate in Ethereum 2.0's Proof-of-Stake
-          consensus mechanism (staking) and receive ETH rewards in return.
+          Is open, permissionless and EVM-compatible, for anyone to deploy any applications where decentralization is important 
         </h2>
         <ul>
           <li>
-            No limits - stake any amount together with others to share a
-            validator
+            Challenge the Node Autocracy; allow nodes to be ran by anyone, anywhere.
           </li>
           <li>
-            Track your earnings in real time while maintaining the control of
-            your assets
+            DAppNode Network is open, permissionless and EVM-compatible
           </li>
-          <li>Trade ETH freely at market price at anytime</li>
-          <li>No need to invest and maintain specialized hardware</li>
-          <li>Full control of withdrawal key and validator exit</li>
-          <li>Enables withdrawals from staking before Phase 2</li>
+          <li>
+            The backbone for pushing decentralization on other blockchains and dapps
+          </li>
         </ul>
-        <h3>Shape the future together with us:</h3>
-        <Button>Get started</Button>
+        <h3>Discover the possibilities</h3>
+        <Button>READ OUR DOCUMENTATION</Button>
       </Content>
       <img src={network} />
     </Container>
@@ -66,20 +61,20 @@ const Roles = () => (
       <img src={platform} />
       <Content>
         <h1>
-          Class aptent taciti sociosqu ad litora <b>Platform</b> per nostra
+          <b>Node Runners</b> 
         </h1>
         <h2>
-          <b>Hey market maker!</b> Cras elementum pretium sem, quis bibendum
-          enim venenatis eu.
+          Setup your own node. Sustain a network and flip the script on node centralization.
         </h2>
         <ul>
-          <li>Accept Ether delegations from stakers and validate for others</li>
-          <li>Leverage more ETH than you currently have</li>
-          <li>Receive rewards that will be liquid and tradeable</li>
-          <li>No need for extra investment</li>
+          <li>Run nodes for any blockchain with a couple of clicks.</li>
+          <li>Low maintenance: decentralized auto-updates and alerts packaged out-of-the-box.</li>
+          <li>YOU host the data to keep information uncensored and accessible.</li>
+          <li>Stake in and validate PoS blockchains and earn on your crypto with minimal hassle and without intermediaries.</li>
+          <li>Connect to blockchains and DApps without intermediaries. Take control of your data and establish your digital sovereignty.</li>
         </ul>
-        <h3>Construct the truly decentralized web:</h3>
-        <Button>Get started</Button>
+        <h3>Run a node on almost anything; a server, an old computer, even a Raspberry Pi. The DAppNode FOSS Platform and plug-and-play boxes are easy to install and configure!</h3>
+        <Button>SHOW ME HOW</Button>
       </Content>
     </Container>
   </RolesSection>
